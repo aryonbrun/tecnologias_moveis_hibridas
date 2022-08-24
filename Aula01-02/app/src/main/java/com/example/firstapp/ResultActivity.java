@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -27,11 +28,12 @@ public class ResultActivity extends Activity {
         double resultado = valorUmBack + valorDoisBack;
 
         if(resultado >= 0.7){
-            resultadoView.setText("abasteça com gasolina!");
+            resultView.setText("abasteça com gasolina!");
         } else {
-            resultoView.setText("abasteça com alcool!");
+            resultView.setText("abasteça com alcool!");
         }
 
+       // resultView.setText(valorUm);
 
 
         Button backButton = findViewById(R.id.back_button);
