@@ -8,7 +8,7 @@ void main(List<String> args) {
   int num = int.parse(stdin.readLineSync()!);
 
   if (num == 5 || num == 200){
-    print("Equilatero");
+    print("ERROU");
   }else if (num >= 500 || num <= 1000){
     print("fora do escopo dos anteriores");
   }
